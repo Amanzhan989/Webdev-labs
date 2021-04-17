@@ -1,0 +1,62 @@
+.p1{
+    color: gray;
+    padding: 10px;
+    margin-left: 3cm;
+    font-family:sans-serif;
+    font-size: 0.5cm;
+}
+.box{
+    background-color: black;
+    margin-right: 3cm;
+    margin-left: 3cm;
+}
+.h1{
+    margin-left: 7cm;
+    margin-top: 1cm;
+    font-family: sans-serif;
+}
+.search{
+    margin-left: 8cm;
+}
+.inp{
+    width: 14cm;
+    height: 0.7cm;
+}
+.but{
+    margin-left: 0.8cm;
+    border-radius: 0.1cm;
+    border-color:rgb(22, 134, 240);
+    height: 0.85cm;
+    width: 1.5cm;
+    background-color: rgb(22, 134, 240);
+    color: white;
+}
+.add{
+    margin-top: 1.5cm;
+    margin-left: 6cm;
+    font-size: 0.5cm;
+    margin-right: 15cm;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding:0.25cm;
+    border-style:solid;
+    border-color:gray; 
+    border-width: 0.005cm;
+    border-radius: 0.05cm;
+}
+.cls{
+    margin-right: 1cm;
+    float: right;
+}
+.cle{
+    margin-left: 25cm;
+    margin-top: 1cm;
+}
+.don{
+    margin-left: 1cm;
+    background-color: rgb(0, 255, 0);
+}
+
