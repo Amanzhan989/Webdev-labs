@@ -1,0 +1,29 @@
+<div *ngIf="!products.isRemoved">
+    <div class='main'>
+    <p *ngIf="products.name" >
+            <a href="{{products.link}}">
+                {{ products.name }}
+            </a> 
+    </p>
+        <p class="image">
+            <img [src]="products.img" width="160">
+            </p>
+            <p class = "text">
+        
+            <strong>Description:</strong> {{ products.description }} <br> <br>
+            <strong>Rating:</strong> {{ products.rating }}
+            </p>
+        
+        <div *ngIf="products.like" >
+            Like: {{ products.like}}
+            <button (click)="likeItem()"> <img src="https://i.pinimg.com/originals/3b/7c/f2/3b7cf20cd3a365c38aedb8b0b531756a.png" width="15" alt=""></button>
+        </div> 
+        <br>
+        <button (click)="share(products.link)" class="productLink">
+            Share
+        </button>
+        <button (click)="deleteItem()" class="Delete">
+            Delete
+        </button>
+            
+    </div></div>

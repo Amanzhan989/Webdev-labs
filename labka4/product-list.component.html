@@ -1,0 +1,22 @@
+<h2>Products </h2>
+<div *ngFor="let product of products" class="main">
+    <div *ngIf="!product.isRemoved">
+<a *ngIf="product.name" class="productName" href="{{product.link}}">
+            {{ product.name }}
+</a>
+<div class="flex-container">
+    <p class="image">
+        <img [src]="product.img" width="160">
+      </p>
+      <p class = "text">
+          <br>
+        <strong>Description:</strong> {{ product.description }} <br> <br>
+        <strong>Rating:</strong> {{ product.rating }}
+      </p>
+    <div>
+     
+        <a class="moreInfo" routerLink='/categories/{{product.categoryId}}/products/{{product.productId}}' >More...</a>
+        <br><br><br><br>
+    </div>
+</div> </div>
+</div>
